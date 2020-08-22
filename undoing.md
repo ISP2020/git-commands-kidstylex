@@ -18,3 +18,13 @@ copy.)
     ```
     git checkout HEAD^
     ```
+
+### Additional
+* compare the current commit to a previous commit
+    ```
+    git diff <previouscommit> HEAD 
+    ```
+* show the changes that have been staged
+    ```
+    git diff --staged 
+    ```

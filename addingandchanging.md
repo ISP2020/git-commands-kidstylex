@@ -1,4 +1,4 @@
-### Adding and Changing Stuff
+## Adding and Changing Stuff
 
 Suppose your working copy of a repository contains these files and directories:
 ```
@@ -81,4 +81,26 @@ test/
 11. What is the command to show all differences between your working copy and the most recent commit? (Can be kind of hard to read.)
     ```
     git diff HEAD
+    ```
+
+### (Additional)
+* add stages All
+    ```
+    git add -A 
+    ```
+* add stages new and modified, without deleted
+    ```
+    git add .
+    ```
+* add stages modified and deleted, without new
+    ```
+    git add -u
+    ```
+* add staged changes to previous commit (only used it before pushing a commit)
+    ```
+    git commit --amend 
+    ```
+* remove a folder 
+    ```
+    git rm -r FOLDER 
     ```

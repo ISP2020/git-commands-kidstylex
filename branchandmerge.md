@@ -31,7 +31,7 @@
     ```
     Explain this error.
     
-        the local branch is not tracking the upstream.
+    the local branch is not tracking the upstream.
 
 6. What is the command to push `dev-food` to `origin` as a new remote branch on `origin`
     ```
@@ -83,3 +83,21 @@
 
     (Additional) How to fix:
     A local repository needs to get the latest updates from Github first. Use the 'git pull' command to update the local Git Repository to the current version.
+
+### Additional
+* list branches including remotes
+    ```
+    git branch -a  
+    ```
+* delete a local branch
+    ```
+    git branch -d <brandname>
+    ```
+* rename the current branch
+    ```
+    git branch -m <brandname>
+    ```
+* merge the commits from the given branch into the current branch
+    ```
+    git merge <brandname>
+    ```
