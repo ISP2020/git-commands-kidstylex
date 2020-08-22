@@ -83,7 +83,7 @@ test/
     git diff HEAD
     ```
 
-### (Additional)
+### Additional
 * add stages All
     ```
     git add -A 
