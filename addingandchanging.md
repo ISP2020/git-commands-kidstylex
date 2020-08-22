@@ -1,4 +1,4 @@
-### Git Adding and Changing Stuff
+### Adding and Changing Stuff
 
 Suppose your working copy of a repository contains these files and directories:
 ```

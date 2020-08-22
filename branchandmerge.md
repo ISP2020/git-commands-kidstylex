@@ -1,4 +1,4 @@
-## Git Branch and Merge
+## Branch and Merge
 
 1. What is the command to create a new branch named `dev-food`?
     ```
