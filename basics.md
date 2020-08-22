@@ -1,7 +1,7 @@
 ## Git Basics
 
 1. When working with Git locally, what are these?  Describe each one in a sentence
-   * Staging area - the intermediate area in Git directory for files and other transactions waiting to be added/deleted/updated in the repository.
+   * Staging area - directory for files and other transactions waiting to be added/deleted/updated in the repository. (the intermediate area in Git)
    * Working copy - contains both tracked files(files in repository) and untracked files(not included in repository).
    * master - the default branch name in Git.
    * HEAD - the pointer to the current branch reference.
@@ -13,9 +13,13 @@
 
     ```
 3. There are 2 ways to create a local Git repository.  What are they?
-    - clone an existing Git repository from elsewhere.
+    - describe first way (one sentence)
+    
+        clone an existing Git repository from elsewhere.
 
-    - create a local directory that you want to version control and turn it into a Git repository.
+    - describe second way
+    
+        create a local directory that you want to version control and turn it into a Git repository.
 
 
 4. Suppose you create a git repository in a directory (folder) named "/project1". Where does git put the repository files for this project? Write the path to git's files.

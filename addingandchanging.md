@@ -38,7 +38,9 @@ test/
      ```
 
 6. You **never** want any files in the `out/` directory to be commited to git. Describe 2 steps to configure git for this:
-     * step one : create a .gitignore file to ignore `out/` directory.
+     * step one 
+     
+         create a .gitignore file to ignore `out/` directory.
      ```
      .
      .
@@ -49,7 +51,9 @@ test/
 
      ```
 
-     * step two : add, commit, and push a .gitignore file to the repository.
+     * step two
+     
+         add, commit, and push a .gitignore file to the repository.
 
 
 7. What is the command to move `a`, `b`, and `c` from the `src` directory to the top-level directory of the project, so that they are also moved in the git repository?

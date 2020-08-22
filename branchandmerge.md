@@ -29,9 +29,9 @@
     cmd>  git push
     fatal:  The current branch dev-food has no upstream branch. 
     ```
-    Explain this error:
+    Explain this error.
     
-    * the local branch is not tracking the upstream.
+        the local branch is not tracking the upstream.
 
 6. What is the command to push `dev-food` to `origin` as a new remote branch on `origin`
     ```
@@ -73,13 +73,13 @@
    - You edit README.md on Github using Github's web interface and save the changes.
    - On your local machine, you edit README.md, commit the changes and push it to Github. 
       
-   What happens when you push?:
-
-    * I got the error : failed to push some refs to 'https://github.com/..../....'
+   What happens when you push?
+       
+       I got the error : failed to push some refs to 'https://github.com/..../....'
 
    Explain why.
-
-    * The Git Repository from Github and local does not match, so it is impossible to use git push to push README.md in the local repo to Github. 
+   
+       The Git Repository from Github and local does not match, so it is impossible to use git push to push README.md in the local repo to Github. 
 
     (Additional) How to fix:
     A local repository needs to get the latest updates from Github first. Use the 'git pull' command to update the local Git Repository to the current version.
