@@ -1,7 +1,7 @@
 ## Git Basics
 
 1. When working with Git locally, what are these?  Describe each one in a sentence
-   * Staging area - directory for files and other transactions waiting to be added/deleted/updated in the repository. (the intermediate area in Git)
+   * Staging area - the intermediate area in Git directory for files and other transactions waiting to be added/deleted/updated in the repository.
    * Working copy - contains both tracked files(files in repository) and untracked files(not included in repository).
    * master - the default branch name in Git.
    * HEAD - the pointer to the current branch reference.

@@ -72,14 +72,14 @@
    - Your local repo is up-to-date with a remote Github repo (has identical README.md)
    - You edit README.md on Github using Github's web interface and save the changes.
    - On your local machine, you edit README.md, commit the changes and push it to Github. 
-      
+   
    What happens when you push?
-       
-       I got the error : failed to push some refs to 'https://github.com/..../....'
 
    Explain why.
    
-       The Git Repository from Github and local does not match, so it is impossible to use git push to push README.md in the local repo to Github. 
+   I got the error : failed to push some refs to 'https://github.com/..../....'
+   
+   Because the Git Repository from Github and local does not match, so it is impossible to use git push to push README.md in the local repo to Github. 
 
     (Additional) How to fix:
     A local repository needs to get the latest updates from Github first. Use the 'git pull' command to update the local Git Repository to the current version.
