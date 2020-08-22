@@ -1,4 +1,4 @@
-### Adding and Changing Stuff
+### Git Adding and Changing Stuff
 
 Suppose your working copy of a repository contains these files and directories:
 ```
@@ -37,10 +37,19 @@ test/
      git commit -m "[msg]"
      ```
 
-<!-- 6. You **never** want any files in the `out/` directory to be commited to git. Describe 2 steps to configure git for this:
-     * step one gitignore????????????????
+6. You **never** want any files in the `out/` directory to be commited to git. Describe 2 steps to configure git for this:
+     * step one : create a .gitignore file to ignore `out/` directory.
+     ```
+     .
+     .
+     # Ignore the build directory
+     /out
+     .
+     .
 
-     * step two -->
+     ```
+
+     * step two : add, commit, and push a .gitignore file to the repository.
 
 
 7. What is the command to move `a`, `b`, and `c` from the `src` directory to the top-level directory of the project, so that they are also moved in the git repository?
