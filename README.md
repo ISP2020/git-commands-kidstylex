@@ -1,18 +1,4 @@
 ## Using Git
-
-> 1. Answer these questions using Markdown.  
-> 2. Delete these instructions.    
-> 3. Check that your formatting is correct (points deducted if incorrect).  VS Code and IntelliJ have markdown previewers.
-> 4. Optional: For your own reference you may optionally do the following:
->    * Divide this file into separate Markdown files for each section, and put a link to each file in README.md.
->    * Add additional sections or questions to the end for things you'd like to remember.
-
-> To display your answers as lines of *unformatted text* (like HTML `<pre>` tag) there are 2 ways to do it:
-> - leave 4 spaces at start of the line (and the text on the line must not "look like" a Markdown numbered or bulleted item)
-> - put the lines between triple backquotes (as in the source code for this file):    
-    ```
-    unformatted text
-    ```
 * [Git Basics](basics.md)
 * [Adding and Changing Stuff](addingandchanging.md)
 * [Branch and Merge](branchandmerge)
