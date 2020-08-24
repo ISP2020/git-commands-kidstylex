@@ -2,8 +2,8 @@
 
 * [Git Basics](basics.md)
 * [Adding and Changing Stuff](addingandchanging.md)
-* [Branch and Merge](branchandmerge.md)
 * [Undoing Changes](undoing.md)
+* [Branch and Merge](branchandmerge.md)
 
 
 ## Viewing Changes and Commits
