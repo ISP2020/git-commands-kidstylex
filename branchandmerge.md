@@ -91,13 +91,13 @@
     ```
 * delete a local branch
     ```
-    git branch -d <brandname>
+    git branch -d <branchname>
     ```
 * rename the current branch
     ```
-    git branch -m <brandname>
+    git branch -m <branchname>
     ```
 * merge the commits from the given branch into the current branch
     ```
-    git merge <brandname>
+    git merge <branchname>
     ```
