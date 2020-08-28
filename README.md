@@ -4,6 +4,7 @@
 * [Adding and Changing Stuff](addingandchanging.md)
 * [Undoing Changes](undoing.md)
 * [Branch and Merge](branchandmerge.md)
+* [Remote Commands](remote-commands.md)
 
 
 ## Viewing Changes and Commits

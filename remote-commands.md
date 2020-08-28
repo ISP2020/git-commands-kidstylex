@@ -5,7 +5,7 @@
      git remote -v
      ```
 
-2. The command to view details about a remote repo named origin, including all the remote banches, and local tracking branches.
+2. The command to view details about a remote repo named origin, including all the remote branches, and local tracking branches.
      ```
      git remote show origin
      ```
@@ -57,13 +57,13 @@
 
         Use 'git pull' command to update the local Git Repository to the current version.
         ```
-        git pull origin <brandname>
+        git pull origin <branchname>
         ```
     * step two
 
         Use 'git push' command to upload local repository content to a remote repository.
         ```
-        git push origin <brandname>
+        git push origin <branchname>
         ```
 
 6. Suppose you want to move origin to a different URL. This can happen if you change the name of a repo on Github, or transfer ownership from one person to another. What is the command to change the URL for origin to https://github.com/your_name/newrepo.
